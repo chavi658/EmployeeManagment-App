@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  /* img:  https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbxnWy2CuMrVaP4J5hNdUN9BEdFr0VNx2r1XtLMhE3sL4Lca1mcL3O_QWheenwmNy0Gy8&usqp=CAU */
+  }
+}
+
+
+.App-logo {
+  max-width: 30px; /* גודל התמונה החדשה */
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

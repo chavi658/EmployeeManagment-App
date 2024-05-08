@@ -1,0 +1,33 @@
+.employee-details-container {
+    background-color: #f0f8ff; /* צבע רקע */
+    padding: 20px; /* מרווח מסביב */
+    border-radius: 10px; /* פינות מעגלות */
+}
+
+.employee-detail {
+    margin-bottom: 10px; /* מרווח בין פרטי העובד */
+}
+
+.detail-label {
+    font-weight: bold; /* גופן מודגש לתווים הקטנים */
+    color: #4169e1; /* צבע תווים */
+}
+
+.detail-value {
+    color: #1e90ff; /* צבע תווים */
+}
+
+.role-detail {
+    background-color: #add8e6; /* צבע רקע תת-קטע */
+    padding: 10px; /* מרווח מסביב */
+    border-radius: 5px; /* פינות מעגלות */
+}
+
+.sub-detail-label {
+    font-weight: bold; /* גופן מודגש לתווים הקטנים */
+    color: #4169e1; /* צבע תווים */
+}
+
+.sub-detail-value {
+    color: #1e90ff; /* צבע תווים */
+}
